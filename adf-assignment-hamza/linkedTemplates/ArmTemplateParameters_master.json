@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-assignment-hamza"
+		},
+		"linkedservicehamza_accountKey": {
+			"value": ""
+		},
+		"linkedservicehamza_properties_typeProperties_url": {
+			"value": "https://storageassignmenthamza.dfs.core.windows.net/"
+		},
+		"rest_api_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
